@@ -17,7 +17,7 @@ load-display pandagl
 # ------------------------ Window / Screen ------------------------
 
 #window-type none
-window-title Colony
+window-title Life Evolved
 
 win-size 1280 960
 
