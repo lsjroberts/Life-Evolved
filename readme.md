@@ -1,5 +1,5 @@
-Evolution Simulation
-====================
+Life Evolved - An Evolution Simulator
+=====================================
 
 Organisms
 ---------
