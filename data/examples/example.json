@@ -1,0 +1,45 @@
+{
+    "genepool": [
+        {
+            "component": "appendage.Limb",
+            "componentLevel": 1,
+            "componentFace": 1,
+            "componentPosition": [0, -1],
+            "traits": [
+                {
+                    "trait": "appendage.limb.Size",
+                    "size": [3.0, 2.0, 8.0]
+                },
+                {
+                    "trait": "appendage.limb.JointAxes",
+                    "axes": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                {
+                    "trait": "appendage.limb.JointSpeed",
+                    "axes": ["x"],
+                    "speed": 1
+                },
+                {
+                    "trait": "appendage.limb.JointSpeed",
+                    "axes": ["y"],
+                    "expandSpeed": 10,
+                    "contractSpeed": 1
+                }
+            ]
+        }
+    ],
+    "species": [
+        {
+            "chromasomes": [
+                [0]
+            ],
+        }
+    ],
+    "organisms": [
+
+    ],
+}

@@ -1,0 +1,100 @@
+{
+    "genepool": [
+        {
+            "traits": [
+                { "trait": "has", "component": "organ.Stem" },
+                { "trait": "organ.stem.CarrierRate" },
+                { "trait": "organ.stem.BranchRate" }
+            ]
+        },
+        {
+            "traits": [
+                { "trait": "has", "component": "organ.Flower" },
+                { "trait": "organ.flower.PetalSize" },
+                { "trait": "organ.flower.PetalCount" },
+                { "trait": "organ.flower.PetalColor" }
+            ]
+        },
+        {
+            "traits": [
+                { "trait": "has", "component": "organ.Leaf" },
+                { "trait": "organ.leaf.Size" },
+                { "trait": "organ.leaf.PhotosynthesisRate" }
+            ]
+        },
+        {
+            "traits": [
+                { "trait": "has", "component": "organ.Root" },
+                { "trait": "organ.root.CarrierRate" },
+                { "trait": "organ.root.BranchRate" }
+            ]
+        }
+    ],
+    "species": [
+        {
+            "chromasomes": [ [0,1],[2,3] ]
+        }
+    ],
+    "organisms": [
+        { 
+            "species": 0,
+            "chromasomes": [
+                [
+                    [
+                        null,
+                        [{ "rate": 1, "d": true },{ "rate": 2, "d": false }],
+                        [{ "rate": 3, "d": true },{ "rate": 2, "d": false }]
+                    ],
+                    [
+                        null,
+                        [{ "size": 1.0, "d": true },{ "size": 1.3, "d": false }],
+                        [{ "count": 5, "d": true },{ "count": 6, "d": false }],
+                        [{ "color": [53,15,98], "d": true },{ "color": [255,255,255], "d": false }]
+                    ]
+                ],
+                [
+                    [
+                        null,
+                        [{ "size": 1.0, "d": true },{ "size": 1.3, "d": false }],
+                        [{ "rate": 8, "d": true },{ "rate": 12, "d": false }]
+                    ],
+                    [
+                        null,
+                        [{ "rate": 4, "d": true },{ "rate": 3, "d": false }],
+                        [{ "rate": 1, "d": true },{ "rate": 0, "d": false }]
+                    ]
+                ]
+            ]
+        },
+        { 
+            "species": 0,
+            "chromasomes": [
+                [
+                    [
+                        null,
+                        [{ "rate": 1, "d": true },{ "rate": 2, "d": false }],
+                        [{ "rate": 3, "d": true },{ "rate": 2, "d": false }]
+                    ],
+                    [
+                        null,
+                        [{ "size": 1.0, "d": true },{ "size": 1.3, "d": false }],
+                        [{ "count": 5, "d": true },{ "count": 6, "d": false }],
+                        [{ "color": [53,15,98], "d": true },{ "color": [255,255,255], "d": false }]
+                    ]
+                ],
+                [
+                    [
+                        null,
+                        [{ "size": 1.0, "d": true },{ "size": 1.3, "d": false }],
+                        [{ "rate": 8, "d": true },{ "rate": 12, "d": false }]
+                    ],
+                    [
+                        null,
+                        [{ "rate": 4, "d": true },{ "rate": 3, "d": false }],
+                        [{ "rate": 1, "d": true },{ "rate": 0, "d": false }]
+                    ]
+                ]
+            ]
+        }
+    ]
+}
