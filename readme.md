@@ -25,7 +25,7 @@ are considered to be in separate genera, though physical and geographical variab
 genera breeding.
 
 
-Traits, Genes, Chromasomes & Mutations
+Traits, Genes, Chromosomes & Mutations
 --------------------------------------
 Traits can be affected by any number of genes. Genes are grouped into chromsomes, usually as a chromosome pair (diploid)
 represented as a pair of dominant and/or recessive alleles. If two dominant or two recessive alleles of a trait are
@@ -34,7 +34,7 @@ combined then the trait is averaged, e.g. red petals + white petals = pink petal
 When an organism spawns a child it's genes are copied into the child. At this stage mutations can occur on genes.
 
 Mutations are expressed as changes to the traits the gene affects, this can be a simple change on a property of a trait.
-Additionally, chromasomes can be fused or split to create fewer or more total chromosomes. In these occurences the traits
+Additionally, chromosomes can be fused or split to create fewer or more total chromosomes. In these occurences the traits
 do not change in number and all the same information is available. However over time these different chromosomes will
 continue to mutate and drive speciation.
 

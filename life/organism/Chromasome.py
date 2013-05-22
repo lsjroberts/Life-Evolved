@@ -34,7 +34,7 @@ class Chromosome( ):
     # @param Chromosome chromosome
     # @return Chromosome
     def fusion( self, chromosome ):
-        return Chromasome( self.genes + chromosome.genes )
+        return Chromosome( self.genes + chromosome.genes )
 
     # Create fission of the chromosome into 2 chromosomes
     # @param self
@@ -52,4 +52,4 @@ class Chromosome( ):
             else:
                 genesOne.append( trait )
 
-        return Chromasome( genesOne ), Chromasome( genesTwo )
+        return Chromosome( genesOne ), Chromosome( genesTwo )

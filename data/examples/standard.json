@@ -32,13 +32,13 @@
     ],
     "species": [
         {
-            "chromasomes": [ [0,1],[2,3] ]
+            "chromosomes": [ [0,1],[2,3] ]
         }
     ],
     "organisms": [
         { 
             "species": 0,
-            "chromasomes": [
+            "chromosomes": [
                 [
                     [
                         null,
@@ -68,7 +68,7 @@
         },
         { 
             "species": 0,
-            "chromasomes": [
+            "chromosomes": [
                 [
                     [
                         null,

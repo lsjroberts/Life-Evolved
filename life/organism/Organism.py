@@ -14,7 +14,7 @@
 
 # -------- Organism --------
 class Organism( object ):
-    chromasomes = []
+    chromosomes = []
     components = []
     
     # Init
@@ -47,16 +47,16 @@ class Organism( object ):
 
         # Sexual reproduction
         if partner:
-            for i, c in enumerate( self.chromasomes ):
-                chromasome = Chromsome( )
-                chromasome.recombine( c.meiosis(), partner.chromosomes[i].meiosis() )
+            for i, c in enumerate( self.chromosomes ):
+                chromosome = Chromsome( )
+                chromosome.recombine( c.meiosis(), partner.chromosomes[i].meiosis() )
                 organism.chromosomes.append( chromosome )
 
         # Asexual reproduction
         else:
             for c in self.chromosomes:
-                chromasome = Chromasome( )
-                chromasome.recombine( c.meiosis(), c.meiosis() )
-                organism.chromosomes.append( chromasome )
+                chromosome = Chromosome( )
+                chromosome.recombine( c.meiosis(), c.meiosis() )
+                organism.chromosomes.append( chromosome )
 
         return organism
