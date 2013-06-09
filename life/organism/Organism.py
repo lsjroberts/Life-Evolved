@@ -49,7 +49,7 @@ class Organism( object ):
         if partner:
             for i, c in enumerate( self.chromosomes ):
                 chromosome = Chromsome( )
-                chromosome.recombine( c.meiosis(), partner.chromosomes[i].meiosis() )
+                chromosome.recombine( c.meiosis(mutate=True), partner.chromosomes[i].meiosis(mutate=True) )
                 organism.chromosomes.append( chromosome )
 
         # Asexual reproduction

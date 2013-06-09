@@ -21,11 +21,13 @@ class Gene( object ):
     # Create a potentially mutated copy of the gene
     # @param self
     # @return Gene
-    def copy( self ):
-        copyTraits = []
-
-        for trait in self.traits:
-            trait.mutate( )
-            copyTraits.append( trait )
+    def copy( self, mutate = False ):
+        if mutate:
+            copyTraits = []
+            for trait in self.traits:
+                trait.mutate( )
+                copyTraits.append( trait )
+        else:
+            copyTraits = self.traits
 
         return Gene( copyTraits )

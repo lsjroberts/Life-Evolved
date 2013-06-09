@@ -19,11 +19,11 @@ class Chromosome( ):
         if genes is None: genes = []
         self.genes = genes
 
-    def meiosis( self ):
+    def meiosis( self, mutate = False ):
         arm = []
         for genePair in self.genes:
             gene = choice( genePair )
-            arm.append( gene.copy() )
+            arm.append( gene.copy(mutate) )
         return arm
 
     def recombine( self, arm1, arm2 ):
